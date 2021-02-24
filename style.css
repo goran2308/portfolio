@@ -46,7 +46,7 @@ html {
           justify-content: flex-end;
   padding: 0 40px;
   width: 100vw;
-  height: 50px;
+  height: 80px;
   position: fixed;
   top: 0;
   background-color: #1a1a1a;
@@ -312,21 +312,6 @@ html {
           filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
-#about .intro-card .intro-image {
-  background-image: url("../assets/profile.jpg");
-  width: 250px;
-  height: 250px;
-  background-size: cover;
-  border-radius: 100%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
-
 #about .intro-card .intro-tech ul {
   list-style: none;
   display: -webkit-box;
@@ -474,6 +459,19 @@ html {
 
 .intro-mobile {
   display: none;
+}
+
+.intro-image {
+  background-image: url("../assets/profile.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 #work {
