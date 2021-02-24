@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Goran Solev | Web designer and developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/355b890a2e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="home" class="container">
+
+    <!-- Navigation starts here -->
+
+    <div class="navigation">
+      <ul>
+        <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+        <li><a href="#work"><i class="fas fa-laptop-code"></i>My Work</a></li>
+        <li><a href="#contact"><i class="fas fa-address-card"></i>Contact</a></li>
+      </ul>
+      <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </div>
+
+    <div class="aside">
+      <ul>
+        <li><a onclick="hideAside()" href="#home"><i class="fas fa-home"></i>Home</a></li>
+        <li><a onclick="hideAside()" href="#about"><i class="fas fa-user"></i>About</a></li>
+        <li><a onclick="hideAside()" href="#work"><i class="fas fa-laptop-code"></i>My Work</a></li>
+        <li><a onclick="hideAside()" href="#contact"><i class="fas fa-address-card"></i>Contact</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- Home section starts here -->
+
+    <div class="landing-container">
+      <h1 class="landing-title">
+        Hello, my name is <span class="title-name">Goran Solev</span></br>
+        I'm junior web developer
+      </h1>
+      <a href="#work" class="cta-button">My work<i
+          class="fas fa-arrow-right cta-button-arrow"></i></a>
+    </div>
+    <div class="circle-container">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+      <div class="circle4"></div>
+    </div>
+
+
+    <!-- About section starts here -->
+
+    <div id="about">
+      <div class="intro-card">
+        <div class="intro-image"></div>
+        <div class="intro-tech">
+          <ul>
+            <li><i class="fab fa-html5"></i></li>
+            <li><i class="fab fa-css3-alt"></i></li>
+            <li><i class="fab fa-sass"></i></li>
+            <li><i class="fab fa-npm"></i></li>
+          </ul>
+          <ul style="font-size: 10px; font-weight: 600;">
+            <li>
+              <p>Express.js</p>
+            </li>
+            <li>
+              <p>MongoDB</p>
+            </li>
+            <li>
+              <p>Node.js</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="intro-right">
+        <div class="intro-window">
+          <div class="red-dot"></div>
+          <div class="yellow-dot"></div>
+          <div class="green-dot"></div>
+        </div>
+        <div class="intro-left">
+          <div class="intro-file">
+            <i class="fab fa-node-js intro-icon"></i>
+            <p class="intro-filename">introduction.js</p>
+          </div>
+        </div>
+        <div class="intro-main">
+          <p class="main-text"><span class="number">01</span>const <span
+              class="variable">firstName</span> <span class="equal">=</span> <span
+              class="variable-name">'Goran'</span>;</p>
+          <p class="main-text"><span class="number">02</span>const <span
+              class="variable">lastName</span> <span class="equal">=</span> <span
+              class="variable-name">'Solev'</span>;</p>
+          <p class="main-text"><span class="number">03</span></p>
+          <p class="main-text"><span class="number">04</span>function <span
+              class="function-name">about</span><span class="variable-name">(</span><span
+              class="variable-name">)</span> <span class="variable-name">{</span>
+          </p>
+          <p class="main-text"><span class="number">05 </span> console<span
+              class="function-name">.</span>log<span class="equal">(</span><span
+              class="variable-name">'I am junior web developer</span>
+          </p>
+          <p class="main-text"><span class="number">06 </span><span class="variable-name"> trying to
+              get into the
+              IT industry, creating </span></p>
+          <p class="main-text"><span class="number">07 </span><span class="variable-name"> websites.
+              I have done
+              few projects and I'm</span></p>
+          <p class="main-text"><span class="number">08 </span><span class="variable-name"> willing
+              to
+              learn as much as
+              possible about</span></p>
+          <p class="main-text"><span class="number">09 </span><span class="variable-name">
+              full-stack
+              development.'</span><span class="equal">)</span>;
+          </p>
+          <p class="main-text"><span class="number">10</span><span class="variable-name">}</span>
+          </p>
+          <p class="main-text"><span class="number">11</span></p>
+          <p class="main-text"><span class="number">12</span><span
+              class="function-name">about</span><span class="variable-name">(</span><span
+              class="variable-name">)</span>;</p>
+        </div>
+      </div>
+      <div class="intro-mobile">
+        <p>Hi, my name is <span class="title-name">Goran Solev,</span> junior web
+          developer
+          based
+          in UK, available
+          to be hired. Have done few small projects, so you can take a look into the My Work
+          section.
+          Please drop me an
+          email if you do like my work.</p>
+      </div>
+    </div>
+
+
+    <!-- Work section starts here -->
+
+    <div id="work">
+      <div class="work-container">
+
+        <!-- Iron-Tech website -->
+
+        <a href="https://iron-tech.herokuapp.com/" target="_blank" class="card">
+          <div class="card-image6"></div>
+          <div class="card-text">
+            <div class="card-title">Iron-Tech</div>
+            <div class="card-info">Welding company website with mobile first approach. This is real
+              working website with admin dashboard on the back-end.</div>
+            <div class="card-tech"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>
+              <i class="fab fa-node-js"></i><i class="fab fa-sass"></i>
+              <p>Express.js</p>
+              <p>MongoDB</p>
+            </div>
+          </div>
+        </a>
+
+        <!-- Barman app -->
+
+        <a href="http://barmanapp.surge.sh/" target="_blank" class="card">
+          <div class="card-image1"></div>
+          <div class="card-text">
+            <div class="card-title">Barman App</div>
+            <div class="card-info">Barman App is cocktail recipe web application using
+              3rd party API. Impress your friends ans make them a cocktail!
+            </div>
+            <div class="card-tech"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>
+              <i class="fab fa-sass"></i><i class="fab fa-node-js"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- Guess the number -->
+
+        <a href="http://gtn.surge.sh/" target="_blank" class="card">
+          <div class="card-image2"></div>
+          <div class="card-text">
+            <div class="card-title">Guess the number</div>
+            <div class="card-info">Very simple game guessing a random number between 1 - 50.
+              Every try you get a little hint.
+            </div>
+            <div class="card-tech"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>
+              <i class="fab fa-sass"></i><i class="fab fa-node-js"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- Travel cards -->
+
+        <a href="http://travel-cards-design.surge.sh" target="_blank" class="card">
+          <div class="card-image8"></div>
+          <div class="card-text">
+            <div class="card-title">Travel Cards</div>
+            <div class="card-info">Design of travel cards.</div>
+            <div class="card-tech"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>
+              </i><i class="fab fa-sass"></i></div>
+          </div>
+        </a>
+
+        <!-- Vue.js weather app -->
+
+        <a href="https://vuejs-weather-app.herokuapp.com/" target="_blank" class="card">
+          <div class="card-image9"></div>
+          <div class="card-text">
+            <div class="card-title">Weather app</div>
+            <div class="card-info">Weather app buit in Vue.js following a tutorial on YouTube.</div>
+            <div class="card-tech"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>
+              <i class="fab fa-node-js"></i><i class="fab fa-vuejs"></i><i class="fab fa-npm"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="contact-container">
+        <div class="contact-name">Goran Solev</div>
+        <div class="contact-profession">Junior web developer</div>
+        <div class="contact-info">
+          <div class="contact-place"><i class="fas fa-map-marker-alt"></i>Maidstone, Kent UK</div>
+          <a href="tel:+4407984094782" class="contact-number"><i class="fas fa-phone"></i>+44 07984
+            094782</a>
+          <a href="mailto:solev.goran@gmail.com" class="contact-email"><i
+              class="far fa-envelope"></i>solev.goran@gmail.com</a>
+          <div class="contact-social">
+            <a href="https://github.com/goran2308" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/goran-solev-5a5bb487/" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/solevgoran" target="_blank"><i
+                class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
